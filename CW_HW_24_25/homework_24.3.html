@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="action.php">
+        <label for="firstName">Имя</label>
+        <input type="text" name="firstName" placeholder="Имя">
+        <label for="lastName">Отчество</label>
+        <input id="firstName" type="text" name="lastName" placeholder="Отчество">
+        <label for="birthday">Дата рождения</label>
+        <input type="date" name="birthday" id="birthday">
+        <label for="email">e-mail</label>
+        <input type="email" name="email" id="email" placeholder="e-mail">
+        <label for="phone">Телефон</label>
+        <input type="tel" name="phone" id="phone" placeholder="телефон">
+        <button type="submit">Отправить</button>
+    </form>
+    <script>
+        let form = document.querySelector('form');
+        form.style.width = '300px';
+        form.style.margin = '0 auto';
+        form.style.background = 'lightgrey';
+        form.style.textAlign = 'center';
+        form.style.borderRadius = '20px';
+        form.style.padding = '25px';
+
+        let inputs = document.querySelectorAll('input');
+        for (let input of inputs) {
+            input.style.display = 'block';
+            input.style.width = '200px';
+            input.style.margin = '10px auto';
+            input.style.border = 'none';
+            input.style.borderBottom = 'solid 1px black';
+            input.style.background = 'lightgrey';
+        }
+
+        let button = document.querySelector('button');
+        button.style.marginTop = '20px';
+        button.style.borderRadius = '5px';
+
+        let change = document.querySelector('input').placeholder = 'Ваше имя';
+    </script>
+
+</body>
+</html>
