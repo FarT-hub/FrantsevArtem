@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW_33</title>
+    <style>
+        form {
+            margin: 0 auto;
+            text-align: center;
+        }
+        input {            
+            display: block;
+            width: 350px;
+            height: 40px;
+            background-color: rgb(152, 233, 183);
+            text-align: center;
+            border: none;
+            border-radius: 10px;
+            outline: none;            
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        input:focus {
+            border: solid 1px rgb(230, 214, 38);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+     <form name="newForm">         
+         <input type="text" name="myName" placeholder="Имя">
+         <input type="text" name="myName" placeholder="Фамилия">
+         <input type="text" name="myName" placeholder="Город">
+         <input type="text" name="myName" placeholder="Телефон">
+         <input type="text" name="myName" placeholder="email">
+         <input name="myName" placeholder="Ваш комментарий">
+         <button type="button" onclick="funcName(); openWindow()">submit</button>
+     </form>
+     <script> 
+     function funcName(){
+                 let inputs = document.getElementsByName('myName');
+                 for (let i = 0; i < inputs.length; i++) {
+                     inputs[i].style.backgroundColor = "yellow";                     
+                 }
+                 inputs[0].value = 'My Name';
+                 inputs[1].value = 'My Surname';
+                 inputs[2].value = 'My City';
+                 inputs[3].value = 'My Phonenumber';
+                 inputs[4].value = 'My E-mail';
+                 inputs[5].value = 'My Comment';
+             };
+
+         let a = location;
+         let win;
+         function openWindow(){             
+            win = window.open( a, "new window", "width=400, height=400, top=500, left=500");            
+         };
+
+         
+     </script>
+</body>
+</html>

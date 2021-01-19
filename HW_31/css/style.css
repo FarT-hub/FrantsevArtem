@@ -1,18 +1,4 @@
-/*.©_2017_Neutron_Technologies_AG__All_Rights_Rese {
-  font-size: 12px;
-  font-family: "TitilliumWeb";
-  color: rgb(92, 92, 92);
-  line-height: 1.917;
-  text-align: right;
-  position: absolute;
-  left: 199.937px;
-  top: 3117.992px;
-  width: 277px;
-  height: 12px;
-  z-index: 99;
-}
-
-   */
+/**/
 
 
 
@@ -598,10 +584,5 @@ img {
 
 
 @media all and (max-width: 900px) {
-
-    .navList ul {
-        display: none;       
-        align-items: center;
-        text-align: center;      
-    }
-}
+    
+    }    
