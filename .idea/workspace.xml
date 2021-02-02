@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9732a47-538f-4e10-b2f4-116babf59d02" name="Default Changelist" comment="HW_37">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MaiN_AcademY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MaiN_AcademY.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1ntRNZcFCSFmRcQgwjA4BuyULOO" />
   <component name="ProjectViewState">
@@ -67,7 +69,7 @@
       <workItem from="1612222339697" duration="958000" />
       <workItem from="1612251764142" duration="122000" />
       <workItem from="1612277595398" duration="823000" />
-      <workItem from="1612278728705" duration="2041000" />
+      <workItem from="1612278728705" duration="2882000" />
     </task>
     <task id="LOCAL-00001" summary="HW 37">
       <created>1612278172807</created>
