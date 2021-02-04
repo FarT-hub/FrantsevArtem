@@ -1,0 +1,769 @@
+/*.BB {
+  font-size: 30px;
+  font-family: "Asap";
+  color: rgb(241, 196, 15);
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+  -moz-transform: matrix( 4.27215617655636,0,0,4.26868968423876,0,0);
+  -webkit-transform: matrix( 4.27215617655636,0,0,4.26868968423876,0,0);
+  -ms-transform: matrix( 4.27215617655636,0,0,4.26868968423876,0,0);
+  position: absolute;
+  left: 42.352px;
+  top: 4049.505px;
+  z-index: 5;
+}
+
+
+
+
+*/
+
+  *{
+    padding: 0;
+    margin: 0 auto;
+  }
+img {
+  max-width: 100%;
+  height: auto;
+}
+  .container {
+    max-width: 1280px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+            
+  }
+  .main { 
+    box-sizing: border-box;       
+    background: url(../img/background.jpg);
+    background-size: 100%;       
+  }
+
+  .bg {
+    width: 100%;
+    
+    background-color: rgba(0, 163, 228, 0.56);
+  }
+
+  .brand{
+    display: flex;    
+    width: 150px;
+    margin-left: 100px;
+    padding-top: 30px;    
+    align-items: center;              
+  }
+
+  .brand img{
+    width: 33px;
+    height: 33px;
+    z-index: 175;
+    margin: 0;
+  }
+  .logo{
+        
+    font-size: 20px;
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.25;
+    text-align: left;    
+    }
+
+.content {  
+  display: flex;
+  padding-top: 80px;
+  margin: 0 100px; 
+}
+.description {
+  margin-left: 0;
+  max-width: 50%;
+  height: auto;
+  text-align: left;  
+  padding-top: 180px;  
+}
+
+.content img {
+  margin-left: 15%;
+  max-width: 50%;
+}
+
+  .description h2{       
+    font-size: 55px;
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;    
+  }
+
+  .description h5 {
+    font-size: 18px;
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    text-align: left;   
+  }
+
+  .download {
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    border: none;    
+    border-radius: 5px;
+    background-color: rgb(73, 185, 230);
+    font-size: 18px;
+    font-family: "Asap", sans-serif;
+    
+    font-weight: bold;
+    line-height: 1.389;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.download a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+        
+ .main-bottom {
+  background-color: rgba(0, 163, 228, 0.56);
+  
+ }   
+
+.bottom {
+    display: flex;
+    height: 220px;
+    margin-top: -85px;
+    align-items: center;
+}
+.bottom h6 {
+    margin-left: 100px;
+    margin-right: 0;    
+    font-size: 15px;
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;        
+}
+.bottom a{
+    width: auto;
+    height: 25px;
+    margin-left: 40px;
+    margin-right: 0;
+    padding: 0 10px;
+    padding-top: 3px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-family: "Asap", sans-serif;  
+    font-weight: bold;
+    line-height: 1.2;
+    color:  rgb(5, 46, 180);
+    text-align: center;
+    text-decoration: none;
+}
+.bottom a:hover {
+  background-color: rgba(127, 216, 252, 0.959);
+}
+.count{
+    width: auto;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 0;
+    padding: 0 5px;
+    padding-top: 3px;
+    background:rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-family: "Asap", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.icon {    
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+}
+.label-bg {
+  background-color: #0084b8;
+}
+.label {
+  display: flex;
+  height: 500px;
+  align-items: center;
+}
+
+.labelItem {
+  text-align: center;
+  max-width: 33%;
+}
+
+.labelItem h2 {
+  font-size: 55px;
+  font-family: "Asap", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.455;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.labelItem h5 {
+  font-size: 18px;
+  font-family: "Asap", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.389;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.aboutItem {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.aboutItem img {
+  max-width: 50%;
+}
+
+.text {
+  width: 50%;
+  text-align: left;
+}
+      
+.text h2{
+  font-size: 55px;
+  font-family: "Asap", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+}
+  
+.text h5 {  
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: "Asap", sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 1.667;
+  text-align: left;
+}
+.comment {
+  position: relative;
+  margin-top: 40px;
+  box-sizing: border-box;
+  height: auto;
+  background-color: #ecf0f1;
+  border: none;
+  border-radius: 15px;
+  text-align: left;
+  padding: 40px;
+}
+
+.comment p {
+  font-size: 18px;
+  font-family: "Asap", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-style: italic;
+  line-height: 1.667;
+  text-align: left;
+}
+#head {
+  width: 100px;
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+
+}
+
+.heroes {
+  width: 100%;
+  height: auto;
+  background: #ecf0f1;
+  background-size: 100%;
+}
+
+.aboutHeroes {
+  display: flex;
+  padding: 100px 0;
+}
+
+.aboutHeroesItem {
+  text-align: center;
+  max-width: 33%;
+}
+
+.aboutHeroesText {
+  width: 250px;
+}
+
+.aboutHeroesItem h2 {
+  margin-top: 30px;
+  font-size: 35px;
+  font-family: "Asap", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 0.857;
+}
+
+.aboutHeroesItem h3 {
+  margin-top: 15px;
+  font-size: 25px;
+  font-family: "Asap", sans-serif;
+  color: rgba(0, 0, 0, 0.502);
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.aboutHeroesItem h5 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-family: "Asap", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.667;
+  text-align: center;
+}
+
+.aboutHeroesItem a {  
+  font-size: 18px;
+  font-family: "Asap", sans-serif;
+  color: rgb(0, 163, 228);
+  line-height: 1.667;
+}
+
+/* Footer */
+
+.footertitle {
+  background-color: #f1c40f;
+}
+
+.title {
+  display: flex;
+}
+
+.title h2 {
+  padding: 50px 0;
+  margin-right: 0;
+  font-size: 30px;
+  font-family: "Asap", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+}
+
+.title img {
+  width: 30px;
+  height: 30px;
+  padding: 50px 0;
+  margin-left: 30px;  
+  
+}
+
+footer {  
+  background-color: #d8af0c;
+}
+
+.footerContacts {
+  display: flex;
+  max-width: 80%;
+  align-items: baseline;
+}
+.footerItem {
+  max-width: 33%;
+  margin-top: 50px;
+}
+.footerTitle {
+  display: flex;
+  font-size: 20px;
+  font-family: "Asap";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: left;
+}
+.footerTitle i,
+              a,
+              span {
+                margin: 0;
+              }
+.footerTitle i {
+  font-size: 30px;
+  margin-right: 20px;
+}
+.footerTitle a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.footerItemLink {
+  /* max-width: 40%; */
+  margin-top: 30px;
+  margin-left: 60px;
+  font-size: 16px;
+  font-family: "Asap";
+  color: rgb(255, 255, 255);  
+  line-height: 1.563;
+  text-align: left;
+}
+.footerItemLink a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.footerLogo {
+  margin-left: -20px;  
+  font-size: 130px;
+  font-family: "Asap";
+  color: rgb(241, 196, 15);
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+ 
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .description {
+    margin-left: 0;
+    max-width: 50%;
+    height: auto;
+    text-align: left;
+    padding-top: 80px;  
+  }
+  
+  .content img {
+    margin-left: 15%;
+    max-width: 50%;
+  }
+  
+    .description h2{       
+      font-size: 55px;
+      font-family: "Asap", sans-serif;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: left;    
+    }
+  
+    .description h5 {
+      font-size: 18px;
+      font-family: "Asap", sans-serif;
+      color: rgb(255, 255, 255);
+      line-height: 1.667;
+      text-align: left;   
+    }
+
+    .bottom {
+      display: block;            
+      margin-left: 50px;
+      height: 100px;            
+  }
+  .bottom h6 {
+    display: none;
+    margin-left: 50px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    text-align: left;    
+  }
+  .btn{
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 0;
+    padding: 0 10px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color:  rgb(5, 46, 180);
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration: none;
+  }
+  .count{
+    display: inline;
+    width: min-content;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 0;
+    padding: 0 5px;
+    background:rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    vertical-align: bottom;
+  }
+  .content {
+    display: flex;
+    padding-top: 20px;
+    margin: 0 100px;
+  }
+  .label {
+    display: flex;
+    height: 350px;
+    align-items: center;
+  }
+
+  .aboutItem {
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .aboutItem img {
+    max-width: 100%;
+  }
+  .text {
+    width: 80%;
+    text-align: center;
+  }
+  .text h2{
+    font-size: 55px;
+    font-family: "Asap", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  .text h5 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Asap", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.667;
+    text-align: center;
+  }
+
+  .aboutHeroes {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .aboutHeroesItem {
+    max-width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .aboutHeroesText {
+    width: 100%;
+  }
+  .aboutHeroesItem h2 {
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: "Asap", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 0.857;
+  }
+
+  .aboutHeroesItem h3 {
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: "Asap", sans-serif;
+    color: rgba(0, 0, 0, 0.502);
+    font-style: italic;
+    line-height: 1.2;
+  }
+
+  .aboutHeroesItem h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "Asap", sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.667;
+    text-align: center;
+  }
+
+  .aboutHeroesItem a {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "Asap", sans-serif;
+    color: rgb(0, 163, 228);
+    line-height: 1.667;
+  }
+
+  .footertitle {
+    background-color: #f1c40f;
+  }
+  
+  .title {
+    display: flex;
+    max-width: 80%;
+  }
+  
+  .title h2 {
+    padding: 50px 0;
+    margin-right: 0;
+    font-size: 30px;
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.233;
+    text-align: center;
+  }
+  
+  .title img {    
+    width: 30px;
+    height: 30px;
+    padding: 50px 0;
+    margin-left: 30px;  
+    
+  }
+  
+  footer {  
+    background-color: #d8af0c;
+  }
+  
+  .footerContacts {
+    display: block;
+    max-width: 100%;
+    text-align: center;    
+  }
+  .footerItem {
+    max-width: 50%;
+    margin-top: 0;
+    padding-top: 40px;
+    text-align: left;
+    
+  }
+  .footerTitle {
+    display: flex;
+    font-size: 20px;
+    font-family: "Asap";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+  }
+  .footerTitle i,
+                a,
+                span {
+                  margin: 0;
+                }
+  .footerTitle i {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+  .footerTitle a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .footerItemLink {
+    /* max-width: 40%; */
+    margin-top: 30px;
+    margin-left: 0;
+    font-size: 16px;
+    font-family: "Asap";
+    color: rgb(255, 255, 255);  
+    line-height: 1.563;
+    text-align: left;
+  }
+  .footerItemLink a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .footerLogo {
+    margin-left: -20px;  
+    font-size: 130px;
+    font-family: "Asap";
+    color: rgb(241, 196, 15);
+    font-weight: bold;
+    line-height: 0.833;
+    text-align: left;
+   
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .brand {
+    display: flex;
+    margin: 0 auto;
+    width: 150px;    
+    padding-top: 30px;
+    align-items: center;
+}
+  .content {
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;    
+  }
+  .description { 
+    margin: 0 auto;   
+    max-width: 80%;
+    height: auto;     
+    padding-top: 40px;
+    text-align: center;  
+  }
+  .description h2{       
+    font-size: 55px;
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;    
+  }
+
+  .description h5 {
+    font-size: 18px;
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    text-align: center;   
+  }
+
+  .content img {
+    display: none;
+  }
+  .bottom {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 23px;
+    height: 50px;
+    text-align: center;
+    float: none;
+  }
+.bottom h6 {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    vertical-align: bottom;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .label {
+    display: block;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+  }
+  
+  .labelItem {
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  
+}
