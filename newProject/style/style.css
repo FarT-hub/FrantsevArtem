@@ -1,0 +1,466 @@
+/*@import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');*/
+
+
+
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+
+header {
+    margin: 10px 0;
+    position: relative;
+}
+.nav-brand {
+    display: flex;
+    margin-left: 0;
+    align-items: center;
+}
+.nav-brand-logo {
+    padding: 10px ;
+    background-image: url("../img/navBrandBg.png");
+    font-size: 43px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.837;
+    text-align: left;
+}
+
+.nav-brand-title {
+    padding: 10px;
+    font-size: 43px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(3, 140, 140);
+    line-height: 0.837;
+    text-align: left;
+    vertical-align: center;
+}
+.navbar {
+    max-width: 100%;
+    margin-right: 0;
+
+}
+.navbar>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-left: 2em;
+}
+.navbar>ul>li {
+    margin-left: 0;
+    list-style-type: none;
+}
+.navbar>ul>li>a,
+                span {
+    margin-right: 40px;
+    font-size: 19px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(145, 144, 144);
+    line-height: 1.895;
+    text-align: left;
+}
+.navbar>ul>li>a:hover {
+    color: rgb(81, 80, 80);
+    text-decoration: none;
+}
+
+
+.block {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    background: linear-gradient(135deg, rgba(0,117,126, 0.9) 25%, rgba(16, 208, 181, 0.9) 65%);
+}
+.device {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+}
+.device-item {
+    width: 119px;
+    height: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.device-item:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+.first {
+    background: rgba(4, 146, 143, 0.6);
+}
+.second {
+    background: rgba(4, 137, 138, 0.8);
+}
+.third {
+    background: rgba(1, 125, 130, 1);
+}
+
+.block-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 20px;
+    background: url("../img/circle.png") no-repeat center;
+
+}
+
+.block-info {
+    max-width: 100%;
+    margin-left: 20px;
+    text-align: left;
+}
+.info-logo {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+.img {
+    margin: 0;
+}
+.logo-text {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 21px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.19;
+    text-align: left;
+}
+.main-text>h2 {
+    font-size: 39px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.923;
+}
+.main-text>h5 {
+    font-size: 17px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 2.118;
+    text-align: left;
+}
+.button {
+    display: block;
+    width: 180px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 0;
+    background: rgb(84, 211, 195);
+    align-items: center;
+    text-align: left;
+}
+.button:hover {
+    cursor: pointer;
+    background: rgb(37, 157, 142);
+}
+.button>img {
+    width: 50px;
+    height: inherit;
+    background: rgb(37, 157, 142);
+    padding: 5px;
+}
+.button>a {
+    margin-left: 15px;
+    font-size: 21px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.714;
+    text-decoration: none;
+}
+
+/*ABOUT*/
+
+.about {
+    margin-top: 50px;
+}
+.about-title {
+    margin-bottom: 20px;
+    font-size: 41px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(99, 99, 99);
+    line-height: 0.878;
+    text-align: center;
+}
+.about-description {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(159, 159, 159);
+    line-height: 1.467;
+    text-align: center;
+}
+.about-logo {
+    width: 481px;
+    height: 421px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/aboutlogo.png") no-repeat center;
+    margin-bottom: 50px;
+}
+.about-logo-content>img {
+    display: block;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.about-logo-content>h2 {
+    margin-bottom: 20px;
+    font-size: 88px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.614;
+    text-align: center;
+}
+.about-logo-content>h4 {
+    font-size: 38px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.614;
+    text-align: center;
+}
+
+/*DESkTOP-BANNER*/
+
+.desctop-banner {
+    width: 100%;
+    height: max-content;
+    background: linear-gradient(100deg, rgb(1, 100, 108), rgb(9, 162, 151));
+    padding: 0;
+}
+.menu {
+    display: flex;
+    height: 170px;
+    padding: 0;
+}
+.menu-item {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.menu-item:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+.two {
+    background: rgba(9, 123, 132, 1);
+}
+.three {
+    background: rgba(17, 143, 153, 1);
+}
+.four {
+    background: rgba(29, 160, 170, 1);
+}
+.five {
+    background: rgba(41, 183, 194, 1);
+}
+.six {
+    background: rgba(60, 202, 213, 1);
+}
+.desktop-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.desktop-item-image {
+    width: 100%;
+
+}
+.desktop-block-info {
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+
+.complete {
+    display: flex;
+    width: 100%;
+    height: max-content;
+}
+.percent-complete {
+    padding: 100px 0;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.percent-complete-text>h2 {
+    font-size: 200px;
+    font-weight: bold;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(73, 215, 176);
+    line-height: 0.463;
+}
+.percent-complete-text>h4 {
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(73, 215, 176);
+    line-height: 0.463;
+}
+.arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(73, 215, 176);
+}
+
+/*FOOTER*/
+
+footer {
+    border-top: solid 2px rgb(244, 244, 244);
+}
+footer>h3 {
+    font-size: 23px;
+    font-family: "StRydeRegular", sans-serif;
+    color: rgb(152, 152, 152);
+    line-height: 1.565;
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 993px) {
+    .menu {
+        height: 130px;
+    }
+
+    .block-items {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .desktop-item-image {
+        width: 150%;
+    }
+
+    .desktop-block-info {
+        margin-left: 70px;
+    }
+
+    .percent-complete {
+        padding: 70px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    .navbar {
+        display: none;
+    }
+    .nav-brand-logo {
+        margin-right: 0;
+    }
+    .nav-brand-title {
+        margin-left: 0;
+    }
+    .device-item {
+        width: 100px;
+        height: 100px;
+    }
+    .block-items {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .item-image {
+        margin: 0;
+    }
+    .info-logo {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .button {
+        margin-top: 20px;
+    }
+    .menu {
+        height: 120px;
+    }
+    .desktop-item-image {
+        width: 180%;
+    }
+    .desktop-block-info {
+        padding-top: 20px;
+        margin-left: 80px;
+    }
+    .complete {
+        display: block;
+    }
+    .percent-complete {
+        height: max-content;
+        padding: 60px 0;
+    }
+    .arrows {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 567px){
+    .device-item {
+        width: 90px;
+        height: 90px;
+    }
+    .item-image {
+        display: none;
+    }
+    .about-logo {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .block-items {
+        display: block;
+        padding-bottom: 30px;
+    }
+    .block-info {
+        margin-left: 0;
+        text-align: left;
+    }
+    .desktop-block-info {
+        text-align: center;
+        margin-left: 0;
+    }
+    .main-text>h5 {
+        text-align: center;
+    }
+    .main-text>h2 {
+        font-size: 35px;
+    }
+    .button {
+        display: inline-block;
+    }
+    .desktop-item-image {
+        width: 110%;
+    }
+    .menu-item {
+        max-width: 100%;
+        height: 90px;
+    }
+    .menu-item-img {
+        width: 100%;
+        height: auto;
+    }
+}
