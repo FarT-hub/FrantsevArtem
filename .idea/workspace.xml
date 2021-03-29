@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9732a47-538f-4e10-b2f4-116babf59d02" name="Default Changelist" comment="Homework 37">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW_37/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW_37/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW_37/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW_37/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW_37/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW_38/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW_38/img/youtube-play-btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW_38/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW_38/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/Components/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/Components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/Components/MainContent/MainContent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/Components/MainContent/MainContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/Components/Navbar/Navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/Components/Navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/Components/assets/Header/Brand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newProject/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newProject/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/newProject/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diplom-project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diplom-project/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/diplom-project/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +116,7 @@
       <workItem from="1614159158882" duration="26962000" />
       <workItem from="1614242457909" duration="21995000" />
       <workItem from="1615472929867" duration="5356000" />
+      <workItem from="1617031889571" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="HW 37">
       <created>1612278172807</created>
@@ -196,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614268474589</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="diplom">
+      <created>1617031955949</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617031955950</updated>
+    </task>
+    <task id="LOCAL-00008" summary="diplom-last">
+      <created>1617032089979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617032089979</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +198,8 @@
     <MESSAGE value="HW_37" />
     <MESSAGE value="Homework 37" />
     <MESSAGE value="HomeWork 43" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork 43" />
+    <MESSAGE value="diplom" />
+    <MESSAGE value="diplom-last" />
+    <option name="LAST_COMMIT_MESSAGE" value="diplom-last" />
   </component>
 </project>

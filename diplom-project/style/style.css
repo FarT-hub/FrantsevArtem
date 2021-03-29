@@ -12,7 +12,11 @@ img {
 }
 
 /* Navbar */
-
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
 .custom-navbar {
     background: #fff;
     border-top: 10px solid #29ca8e;
@@ -137,6 +141,7 @@ img {
     border-radius: 25px;
     margin: 4px 2px;
     cursor: pointer;
+    transition: all 0.4s ease-in-out;
     background-color: rgba(253, 247, 247, 0.363);
     border: 2px solid rgb(85, 85, 87);
 }
@@ -552,6 +557,7 @@ figure .fa {
   padding: 10px;
   border: 1px solid #8b8a8a;
   width: 150px;
+  transition: all 0.4s ease-in-out;
   margin-top: 20px;
   
 }
