@@ -1,5 +1,0 @@
-[0812/225601.770:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
-[0812/225601.770:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
-[0812/225602.036:ERROR:exception_snapshot_win.cc(98)] thread ID 8188 not found in process
-[0812/225602.036:ERROR:exception_snapshot_win.cc(98)] thread ID 3524 not found in process
-[1029/204853.161:ERROR:directory_reader_win.cc(43)] FindFirstFile: РЎРёСЃС‚РµРјРµ РЅРµ СѓРґР°РµС‚СЃСЏ РЅР°Р№С‚Рё СѓРєР°Р·Р°РЅРЅС‹Р№ РїСѓС‚СЊ. (0x3)
