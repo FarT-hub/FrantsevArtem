@@ -580,8 +580,51 @@
         </div>
     </footer>
 
+<!--Sale popup-->
 
-    <!-- Jquery -->
+     <div id="bg_popup">
+         <div id="popup">
+             <div class="sale">
+                 <a class="close" href="#" title="Закрыть" onclick="document.getElementById('bg_popup').style.display='none'; return false;">X</a>
+
+             </div>
+             <h2>Only three days</h2>
+             <p>All courses price <b>50%</b> off</p>
+             <div class="count">
+                 <div id="countdown">
+                     <div id="tiles"></div>
+                     <div class="labels">
+                         <li>Days</li>
+                         <li>Hours</li>
+                         <li>Minutes</li>
+                         <li>Seconds</li>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+<!--Help button-->
+
+     <button id="myBtn" class="wow pulse animated" data-wow-iteration="infinite">Help</button>
+     <div id="myModal" class="modal">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h2>How can I help you?</h2>
+<!--                 <span class="closebtn">x</span>-->
+             </div>
+             <form action="#" method="post" class="modal-body">
+                 <input type="text" class="form-control"  name="full name" placeholder="Enter your name" required=""/>
+                 <input type="email" class="form-control" name="email" placeholder="Enter your email" required=""/>
+                 <textarea name="message" class="form-control" rows="3" placeholder="Enter your question"></textarea>
+             </form>
+             <div class="modal-footer">
+                 <button class="submit-btn form-control closebtn">send</button>
+             </div>
+         </div>
+     </div>
+
+     <!-- Jquery -->
     <script src="./js/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="./js/bootstrap.min.js"></script>
@@ -600,6 +643,14 @@
 <script>
     new WOW().init();
 </script>
+
+<!--модальное окно-->
+     <script type="text/javascript">
+         let delay_popup = 3000;
+         setTimeout("document.getElementById('bg_popup').style.display='block'", delay_popup);
+     </script>
+<!--счетчик-->
+     <script src="js/count.js"></script>
 </body>
 
 </html>
